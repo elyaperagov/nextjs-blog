@@ -3,7 +3,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-let PATH = 'http://localhost:8000/api/index.php';
+let PATH = 'https://nextjs-blog-78u2.vercel.app/api/index.php';
 export default class App extends Component {
   constructor(props) {
     super(props);
